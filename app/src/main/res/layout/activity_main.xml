@@ -13,12 +13,12 @@
         android:id="@+id/judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="formulir pendaftaran "
+        android:text="FORMULIR PENDAFTARAN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:layout_gravity="center"
         android:layout_margin="80dp"
         />
@@ -39,13 +39,38 @@
         android:id="@+id/informasi_pendaftaran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informasi pendaftaran Dari"
-        android:layout_margintop="30dp"
+        android:text="Informasi Pendaftaran Dari"
+        android:layout_margintop="20dp"
+        android:textSize="15dp"
         />
     <CheckBox
+        android:id="@+id/pilihan1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
+        android:text="Facebook"
+        android:layout_marginTop="10pt"
+        />
+    <CheckBox
+        android:id="@+id/pilihan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram"
+        android:layout_marginTop="10pt"
+        />
+    <CheckBox
+        android:id="@+id/pilihan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Website"
+        />
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:layout_margin="35dp"
+        />
 
 </LinearLayout>
 

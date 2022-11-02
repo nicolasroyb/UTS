@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:layout_margin="25dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KONFIRMASI PENDAFTARAN"
+        android:gravity="center"
+        android:layout_marginTop="30pt"
+        android:id="@+id/konfirmasi_pendaftaran"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama_lengkap2"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nomor_pendaftaran2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMASI PENDAFTARAN DARI"
+        android:id="@+id/dafrtar_dari"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilpilihan1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilpilihan2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilpilihan3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+</LinearLayout>
